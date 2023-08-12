@@ -1,0 +1,85 @@
+/* Genel Stil */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+h1, h2, h3 {
+    font-family: 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+}
+main {
+    padding: 20px;
+}
+button, a {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+/* Header Stili */
+header {
+    background-color: #534;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+/* Menü Stili */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    padding: 0.5em 0;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+/* Foto Sitili */
+.image-container {
+    display: flex;
+    gap: 10px; /* Resimler arasına boşluk bırakır */
+    justify-content: flex-end; /* Resimleri sağ tarafa yanaştırır */
+    align-items: center; /* Resimleri dikeyde ortalar */
+    height: 60vh; /* Sayfanın yüksekliği kadar genişletir */
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-text {
+    background-color: yellow; /* Arka plan rengi */
+    padding: 10px;
+    flex-grow: 1; /* Metin için daha geniş alan açar */
+    color: #333;
+    text-align: right; /* Yazıyı sola hizalar */
+}
+
+/* Footer Stili */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
